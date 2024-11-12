@@ -92,3 +92,20 @@
     color: #ffffff;
     text-decoration: none;
     }
+
+    margin: 0; =>Remove margens padrões de todos os elementos
+padding: 0;=>espaçamentos padrões de todos os elementos
+box-sizing: border-box; } =>Define o que faz com que as bordas e
+preenchimentos sejam incluídos nas dimensões de largura e altura dos
+elementos, facilitando o controle das proporções.
+
+body{
+font-family: "Poppins", sans-serif;
+} => Define a fonte principal do site como "Poppins", com uma alternativa
+de “sans-serif” caso a fonte não esteja disponível.
+
+header{
+background-color: #424e61;
+color: white;
+width: 100%;
+padding: 20px;
